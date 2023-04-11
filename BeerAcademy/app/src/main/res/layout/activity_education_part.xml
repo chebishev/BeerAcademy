@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.beeracademy.EducationPart"
+    android:background="@android:color/holo_blue_dark"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:padding="10dp"
+        android:text="@string/first_lesson"
+        android:id="@+id/first_thing"
+        android:onClick="firstThing"
+        android:background="#ff8f00"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="16dp"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:text="@string/second_lesson"
+        android:id="@+id/second_thing"
+        android:layout_below="@+id/first_thing"
+        android:background="#ffb300"
+        android:onClick="secondThing"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:text="@string/third_lesson"
+        android:id="@+id/third_thing"
+        android:layout_below="@+id/second_thing"
+        android:background="#ffca28"
+        android:onClick="thirdThing"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="16dp"
+        android:padding="10dp"
+        android:text="@string/fourth_lesson"
+        android:id="@+id/fourth_thing"
+        android:layout_below="@+id/third_thing"
+        android:background="#ffd54f"
+        android:onClick="fourthThing"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/fifth_lesson"
+        android:id="@+id/fifth_thing"
+        android:layout_below="@+id/fourth_thing"
+        android:background="#ffe082"
+        android:onClick="fifthThing"/>
+
+        <TextView
+            android:id="@+id/cheers"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fifth_thing"
+            android:text="@string/cheers"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp"
+            android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:text="@string/want_more"
+        android:onClick="forwardToMoreBeerPart"
+        android:layout_below="@+id/cheers"
+        android:background="#ff6f00"/>
+</RelativeLayout>
+</ScrollView>
