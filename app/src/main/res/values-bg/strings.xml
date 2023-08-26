@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Бирена Академия</string>
+    <string name="greetings">Добре дошли в Бирена Академия част 1</string>
+    <string name="more_beer">Oще бира</string>
+    <string name="five_things">Полезно е да знаете:</string>
+    <string name="fifth_lesson">5. Не я разливайте!!!</string>
+    <string name="first_lesson">1. Тя е много, много популярна</string>
+    <string name="fourth_lesson">4. Ммм, змийска отрова</string>
+    <string name="second_lesson">2. Употребяваме я често</string>
+    <string name="third_lesson">3. Някой с Ценосиликафобия?</string>
+    <string name="want_more">Още бира?</string>
+    <string name="cheers">Наздраве! Това са 5 неща, които не знаехте за бирата... досега.</string>
+    <string name="fifth_string">Най-скъпата бира на света е Vielle Bon Secours - Изключително рядка и с цена около 1000$ за 12 литрова бутилка. Добавете и транспортни разходи, понеже се продава само в Лондон</string>
+    <string name="first_string">Съжалявам, вино! Бирата е най-популярното алкохолно питие в Америка. 85% от всичкия продаден алкохол е бира. Защо е толкова популярна: Защото е толкова добра :)</string>
+    <string name="second_string">Американците пият средно по 28 галона на човек за година. Това е по 299 чаши по 12 унции за вски от нас. Но изобщо не се доближава до постижението на Чехите, които пият средно по 40 галона на година.</string>
+    <string name="third_string">Ценосиликафобията е страхът от това да имаш празна бирена чаша. Запомнете: Единственото нещо, от което трябва да се страхуваме е самия страх... и... тази празна чаша</string>
+    <string name="dark_ale">Тъмна бира</string>
+    <string name="double_beer">Двойна бира</string>
+    <string name="e_mail"></string>
+    <string name="name">Име</string>
+    <string name="order">Поръчка</string>
+    <string name="preferences">Предпочитания</string>
+    <string name="reset">Нулиране</string>
+    <string name="send">Изпрати</string>
+    <string name="quantity">Количество</string>
+</resources>
